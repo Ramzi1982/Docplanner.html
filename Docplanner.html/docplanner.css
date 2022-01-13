@@ -1,0 +1,309 @@
+body{
+     color: #747474;     
+}
+header {
+     position: fixed;
+     top:0%;
+     left: 0%;
+     border: 1px solid white;
+     background-color:white    
+      
+     }
+     .navigation {
+         display: flex;
+         margin: 0% 12%;
+         padding: 1%;
+         justify-content: space-between;
+         background-color:#fff;    
+          
+     }
+     .docplanner-logo {
+         width: 40%;
+         display: block;
+     }
+     .docplanner-logo img {
+         width: 75%;
+     }
+     .nav-links {
+         width: 30%;
+         display: flex;
+         justify-content: center;
+         font-size: 20px
+     }
+     .nav-links a {
+         text-decoration: none;
+         color: gray;
+         margin: 3%;
+     }
+     .nav-links a:hover{
+          color:#00b39b;
+     }
+#intro{
+     margin:0 10%;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     padding: 5%;
+     flex-wrap: wrap;
+     }
+#par{
+     display: flex;
+     font-size: 20px;
+     padding: 15px;
+     line-height: 30px; 
+}
+#par p{
+     text-align: justify;
+     margin: 20px;;
+}
+h1{
+     color: #00b39b;
+     text-align: center;
+     font-size:  35px;
+}
+.boxes{
+     display:flex;
+     align-items:space-around;
+     margin: 0%10%;
+     padding: 20px;
+     font-size: 25px;
+     color: white;
+     font-family: sans-serif;
+     box-sizing: inherit;
+     
+}
+#box-1{
+     background-color:#00ccb1;
+    
+     
+}
+#box-1:hover{
+     opacity: 50%;
+}
+#box-2{
+     background-color: #3d83df;
+     
+}
+#box-3{
+     background-color: #1b2734;
+}
+.select{
+     padding: 2%;
+     margin: 10%;
+     margin-left: 5%;
+     color: white;
+     border: none;
+     background-color: transparent;
+     
+}
+.boxe-patient{
+     height: 450px;
+     padding: 20px;
+     border-radius: 15px;
+     margin: 1%;
+     text-align: left;
+     
+}
+
+#logo{
+     display: flex;
+     color: rgb(0,197,155);
+     margin: 0%10%;
+     justify-content: space-between;  
+      
+}
+#global{
+     align-items: center;
+     font-size: 45px;
+     display: block;
+     font-weight: 200;
+     letter-spacing: 2px;
+     
+}
+.GLOBAL{
+     list-style-type: none;
+     margin-right: 20px;
+     display: flex;
+     flex-wrap: wrap;
+     
+     
+     
+}
+.GLOBAL li{
+     margin: 5%;
+
+}
+
+
+
+
+
+
+.cites{
+     display: flex;
+     flex-wrap: wrap;
+     margin: 0% 20%;
+     justify-content: space-between;
+     margin-top: 0px;
+     
+
+     
+}
+.war-see{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+.btn{
+     background-color: #3d83df;
+     color: white;
+     font-size: 10px;
+     border-radius: 5px;
+     padding: 5px;
+
+}
+h4{
+     color: rgb(182, 179, 179);
+}
+.img-city{
+     width: 250px;
+     border-radius: 8px 8px 0 0;
+     
+}     
+.city{
+     width: 250px;
+     border: 1px solid rgb(230, 227, 227);
+     border-radius: 10px 10px 10px 10px;
+     margin: 5px;
+     padding: 5px;
+     
+
+}
+.city:hover{
+     box-shadow: 0px 0px 10px 10px gray;
+
+}
+#green{
+     background-color: #d6f5f6;
+     display: flex;
+     padding: 5% 20%;
+     height: 500px;
+     overflow: hidden;
+     justify-content: space-between;    
+}
+#green p{
+     font-size: 15px;
+}
+
+.whitebox{
+     background-color: white;
+     width: 200px;
+     height: 180px;
+     padding: 20px;
+     font-size: 2px;
+     text-align: center;
+     margin: 15px;
+     
+}
+#THE-WORLD{
+     color:rgb(0,197,155) ;
+     font-weight: 350;
+     font-size: 30px;
+     margin: 40px;
+}
+h4{
+     color: rgb(0,197,155);
+     font-weight: 350;
+     font-size: 15px;
+}
+#boxes-parents{
+     display: flex;
+
+
+}
+
+#boxes-gauche{
+     margin-top: 40px;
+}
+
+#logo-star{
+     margin: 50px;
+     width: 500px;
+     margin-left: -300px;
+}    
+
+.para{
+     display:block;
+     justify-content: center;
+     align-items: center; 
+     text-align: center;
+     margin: 10% 20% 10% 20%;    
+} 
+.para h5{
+     color: #00b39b;
+     font-size: 50px;
+     font-weight:300;
+}   
+.para p3{
+     font-size: 35px;
+     font-weight: 300;
+     display: block;
+     line-height: 60px;
+     
+}
+
+
+
+
+#question{
+     align-items: center;
+     justify-content: center;
+     margin: 0%40%;  
+     max-width: 520px;
+     text-align: center;  
+}
+#JOIN{
+     color: #333;
+     font-size: 25px;
+}
+#SEE{
+     background: #3d83df;
+     color: white;
+     text-decoration: none;
+     border-radius: 4px;
+     font-size: 20px;
+     padding: 10px;
+}
+
+
+
+
+
+   
+
+footer{
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     color: #747474;
+     text-align: center;
+     font-size: 30px;
+     border-top: 1px solid #eef2f2;
+     
+     
+     
+}
+footer a{
+     text-decoration: none;
+     color:#3d83df;
+     font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
